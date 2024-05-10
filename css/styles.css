@@ -2,7 +2,7 @@
 @import url(./typography/fonts.css);
 @import url(./main-grid/main-grid.css);
 @import url(./header/header.css);
-
-img {
-  max-width: 100%;
-}
+@import url(./sidenav/sidenav.css);
+@import url(./container/container.css);
+@import url(./ad/ad.css);
+@import url(./footer/footer.css);

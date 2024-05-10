@@ -17,3 +17,7 @@ a {
 body {
   font-family: "Roboto", Georgia, serif;
 }
+
+img {
+  max-width: 100%;
+}
