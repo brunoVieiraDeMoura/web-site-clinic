@@ -1,0 +1,8 @@
+@import url(./global.css);
+@import url(./typography/fonts.css);
+@import url(./main-grid/main-grid.css);
+@import url(./header/header.css);
+
+img {
+  max-width: 100px;
+}
