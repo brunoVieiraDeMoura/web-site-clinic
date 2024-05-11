@@ -1,0 +1,35 @@
+.icon {
+  position: fixed;
+  bottom: 65px;
+  right: 30px;
+  font-size: 30px;
+  background: linear-gradient(65deg, #26bb9d, #086f71);
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 100;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  transition: 1s;
+}
+
+.icon:hover {
+  background: linear-gradient(65deg, #de6b41, #55362a);
+}
+
+.div-wpp {
+  bottom: 15px;
+  right: 6px;
+  position: fixed;
+  text-align: center;
+  font-weight: 600;
+  font-size: 11px;
+  padding: 10px 0px;
+  width: 120px;
+  border-radius: 10px;
+  color: white;
+  background: linear-gradient(135deg, #55362a, #de6b41, #55362a);
+}
