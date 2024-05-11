@@ -1,0 +1,7 @@
+.ad {
+  display: grid;
+  background: #fafbfc;
+  align-content: start;
+  padding: 30px;
+  gap: 30px;
+}

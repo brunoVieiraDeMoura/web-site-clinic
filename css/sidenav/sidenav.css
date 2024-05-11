@@ -7,17 +7,26 @@
   display: block;
   min-width: 60px;
   max-width: 100px;
-  margin: 0 auto 30px auto;
+  margin: 20px auto 0px auto;
   background: white;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
-  transition: 1s ease-out;
+  transition: 1s ease-in;
 }
 .sidenav .ativo {
-  background: linear-gradient(185deg, #26bb9d, #086f71);
+  background: linear-gradient(65deg, #26bb9d, #086f71);
 }
 
 .sidenav li a:hover {
+  /* background: linear-gradient(65deg, #26bb9d, #086f71); */
   background: #086f71;
+}
+
+.sidenav p {
+  font-weight: bold;
+  font-size: 18px;
+  color: #086f71;
+  margin-top: 4px;
+  text-align: center;
 }
