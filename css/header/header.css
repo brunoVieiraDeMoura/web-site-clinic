@@ -1,6 +1,7 @@
 .header {
   grid-area: header;
   background: #fafafa;
+
   padding: 30px;
   display: grid;
   grid-template-columns: 1fr auto;

@@ -9,9 +9,12 @@
 
 .col-wide {
   grid-column: 1/-1;
+  /* max-height: 300px; */
+  max-width: 100%;
 }
 
 .img-continer-main {
+  /* max-height: 400px; */
   grid-row: span 2;
   align-self: end;
 }
@@ -45,7 +48,7 @@
 .feature > div {
   width: 80px;
   text-align: center;
-  background: linear-gradient(135deg, #55362a, #de6b41, #de6b41);
+  background: linear-gradient(135deg, #086f71, #26bb9d);
   border-radius: 10px;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
   position: relative;
@@ -72,8 +75,68 @@
   background: white;
   border-radius: 0 0 5px 5px;
   padding: 5px 0px;
-  color: #de6b41;
+  color: #086f71;
   font-weight: bold;
   position: relative;
   top: 2px;
+}
+
+.open {
+  display: none;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #27cc18;
+  margin-left: 30%;
+  margin-top: 24px;
+  margin-bottom: 22px;
+}
+
+.service-availability {
+  background: white;
+  border-radius: 0 0 5px 5px;
+  padding: 5px 0px;
+  color: #086f71;
+  font-weight: bold;
+  position: relative;
+  top: 2px;
+}
+
+.fechado > div {
+  display: none;
+}
+
+.emp {
+  font-size: 0.875rem;
+  color: #086f71;
+  max-width: 18rem;
+}
+
+.quote,
+.status {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  background: linear-gradient(135deg, #26bb9d, #086f71, #086f71);
+}
+.quote p {
+  font-size: 1.5rem;
+  font-family: "Poetsen One";
+  font-style: italic;
+  text-align: center;
+  font-weight: 400;
+  max-width: 500px;
+  margin: 0 auto;
+  color: white;
+}
+
+.status li {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.125rem;
+  padding: 15px;
+}
+.status li + li {
+  border-top: 2px solid #26bb9d70;
 }
