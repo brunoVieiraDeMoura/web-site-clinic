@@ -3,7 +3,9 @@
   bottom: 65px;
   right: 30px;
   font-size: 30px;
-  background: linear-gradient(65deg, #26bb9d, #086f71);
+  /* background: linear-gradient(65deg, #26bb9d, #086f71);
+   */
+  background: #17e63a;
   color: #ffffff;
   border-radius: 50%;
   padding: 10px;
