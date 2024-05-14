@@ -36,8 +36,6 @@
   margin-top: 30px;
 }
 
-.title {
-}
 .title span {
   color: #26bb9d;
   font-size: 0.875rem;
@@ -171,4 +169,28 @@
 .id-item:hover {
   box-shadow: -5px 5px 15px #26bb9d;
   border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .content {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .feature {
+    display: none;
+  }
+}
+
+@media (max-width: 470px) {
+  .content p {
+    font-size: 1rem;
+  }
+  .content h1 {
+    font-size: 2.5rem;
+  }
+  .info {
+    font-size: 1rem;
+  }
 }

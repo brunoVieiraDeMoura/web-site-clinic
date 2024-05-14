@@ -30,3 +30,68 @@
   margin-top: 4px;
   text-align: center;
 }
+
+@keyframes seta {
+  from {
+    right: 30px;
+  }
+  to {
+    right: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .sidenav {
+    position: relative;
+    overflow-x: auto;
+  }
+  .sidenav::after {
+    content: "→";
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: rgba(44, 189, 92, 0.719);
+    animation: seta 0.5s ease-in 0s infinite alternate;
+  }
+
+  .sidenav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 20px;
+    padding: 0px;
+  }
+
+  .sidenav li a {
+    min-width: 60px;
+    max-width: 60px;
+    margin: 0px;
+  }
+
+  .sidenav p {
+    font-size: 0.875rem;
+  }
+  .contxt {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+  .clitxt {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .extxt {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .gintxt {
+    grid-column: 4;
+    grid-row: 2;
+  }
+  .neutxt {
+    grid-column: 5;
+    grid-row: 2;
+  }
+  /* .sidenav ul li {
+    max-width: 50px;
+  } */
+}

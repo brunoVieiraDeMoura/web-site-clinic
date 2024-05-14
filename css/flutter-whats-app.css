@@ -35,3 +35,13 @@
   color: white;
   background: linear-gradient(135deg, #55362a, #de6b41, #55362a);
 }
+
+@media (max-width: 500px) {
+  .div-wpp {
+    display: none;
+  }
+  .icon {
+    bottom: 65px;
+    right: 20px;
+  }
+}

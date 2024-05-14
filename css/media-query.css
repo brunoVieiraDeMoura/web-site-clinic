@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+  .main-grid {
+    grid-template-areas:
+      "header header header"
+      "sidenav content content"
+      "sidenav ad ad"
+      "footer footer footer";
+  }
+}
+
+@media (max-width: 760px) {
+  .main-grid {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header  "
+      "sidenav  "
+      "content  "
+      "ad  "
+      "footer  ";
+  }
+}
